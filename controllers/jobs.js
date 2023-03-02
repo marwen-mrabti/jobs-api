@@ -21,7 +21,6 @@ const createJob = async (req, res) => {
   }
 };
 
-//get all jobs
 /**
  * @description get all jobs created by the user
  * @route GET /api/v1/jobs
@@ -40,7 +39,6 @@ const getAllJobs = async (req, res) => {
   }
 };
 
-//get single job
 /**
  * @description get a single job
  * @route GET /api/v1/jobs/:id
