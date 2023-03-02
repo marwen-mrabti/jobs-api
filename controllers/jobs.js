@@ -1,6 +1,6 @@
 const { StatusCodes } = require("http-status-codes");
 const { CustomAPIError, NotFoundError, BadRequestError } = require("../errors");
-const Job = require("../models/job");
+const Job = require("../models/Job");
 
 //create job
 /**
